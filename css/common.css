@@ -1,22 +1,36 @@
 .public-header{
     height: 110px;
-    background: #000022;
+    background: white;
 }
 
 .public-header .header-logo{
     float: left;
     margin-top: 40px;
-    width: 182px;
+}
+
+.public-header .header-logo a{
     height: 54px;
+    width: 182px;
     background: url("../images/HEADER-LOGO.png");
 }
 
 .public-header .header-nav{
     float: right;
+    font-size: 14px;
 }
 
 .public-header .header-nav .item{
     float: left;
+    margin-top: 44px;
+    margin-left: 50px;
+}
+
+.public-header .header-nav a{
+    color: #3b3b3b;
+}
+
+.public-header .header-nav a:hover{
+    text-decoration: underline;
 }
 
 .public-container{
@@ -27,6 +41,32 @@
 }
 
 .public-footer{
-    height: 318px;
+    height: 218px;
+    padding-top: 100px;
     background: #3b3b3b;
+}
+
+.public-footer .footer-col {
+    width: 230px;
+    float: left;
+    margin-right: 60px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.8;
+}
+
+.public-footer .footer-col .footer-tel{
+
+}
+
+.public-footer .footer-logo{
+    margin-top: -15px;
+    height: 55px;
+    width: 182px;
+    margin-bottom: 10px;
+    background: url("../images/FOOTER-LOGO.png");
+}
+
+.public-footer .footer-col:last-child{
+    margin-right: 0;
 }
