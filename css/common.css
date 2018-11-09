@@ -55,8 +55,8 @@
     line-height: 1.8;
 }
 
-.public-footer .footer-col .footer-tel{
-
+.public-footer .footer-col .footer-tel:hover{
+    text-decoration: underline;
 }
 
 .public-footer .footer-logo{
